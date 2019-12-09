@@ -1,0 +1,25 @@
+body {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+img {
+	width: 400px;
+	height: 200px;
+}
+.picture {
+	width:256px;
+	height:256px;
+}
+
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+ 
+img[data-src] {
+  opacity: 0;
+}
